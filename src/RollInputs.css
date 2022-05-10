@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+form{ 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 20rem;
+    width:30rem;
+    background-color: rgb(204, 200, 200);
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    margin-left:50%;
+    margin-top: 25%;
+    transform: translate(-50%,-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 5px 5px #3a4099b6, 8px 8px 8px 8px #3d5091, 15px 15px 15px 15px #6776ad;
+    
+}
+form button{
+    border-radius:7px ;
+    display: inline-block;
+    border:none;
+    position: relative;
+    background-color: #2f3369;
+    color: white;
+    padding: 2%;
+    width: 20%;
+    cursor: pointer;
+    font-family: 'Arial';
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    transition: color 100ms;
+}
+button:hover{
+    background-color: white ;
+    color: #2f3369;
+    box-shadow: 0 3px 3px 1px #2f3369 inset, 0 3px 3px 1px #2f3369, 0 3px 3px 1px #2f3369 inset,
+    0 3px 3px 1px #2f3369;
+    text-shadow: 0 0 5px #9CC3D5FF,0 0 5px #9CC3D5FF;
+    font-weight: 800;
+    text-align: center;
+}
+.btn{
+    padding:1% 1%;
+    border-radius: 7%;
+    cursor:pointer ;
+    width:5%;
+    border:none;
+    background-color: #2f3369;
+    color: white;
+    margin-left:50%;
+    transform: translateX(-50%);
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
