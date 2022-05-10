@@ -12,7 +12,7 @@ function Result({ arrayRoll }) {
     console.log(arrayRoll.length);
     const postUsers = async () => {
       const res = await axios.post(
-        "https://roll-number-proedge.herokuapp.com/test",
+        "http://roll-number-proedge.herokuapp.com/test",
         { rollNumber }
       );
       const newRes = res.data;
