@@ -3,7 +3,7 @@ Backend Deployed on : https://results-application-backend.herokuapp.com
 
 It is a Web application that is used to fetch results from external APIs and present them at the frontend in a tabular format.
 
-Note: To query multiple results in one go, roll numbers should be entered seperated by commas.
+Note: To query multiple results in one go, comma seperated roll numbers should be entered.
 
 Perequisites to run this project:
 1. Software: Vs code, Node js
