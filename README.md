@@ -1,6 +1,10 @@
 Frontend Deployed on : https://results-web-application.netlify.app/ \
 Backend Deployed on : https://results-application-backend.herokuapp.com
 
+It is a Web application that is used to fetch results from external APIs and present them at the frontend in a tabular format.
+
+Note: To query multiple results in one go, roll numbers should be entered seperated by commas.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
